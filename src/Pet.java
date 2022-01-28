@@ -3,22 +3,24 @@ public class Pet {
     private String petType;
     private String petName;
     private int petAge;
-    private int dogSpace;
-    private int catSpace;
+    private int dogSpaces;
+    private int catSpaces;
     private int daysStay;
     private double amountDue;
 
-    public Pet(String petType, String petName, int petAge, int dogSpace, int catSpace, int daysStay, double amountDue)
+    // Constructor for Pet
+    public Pet(String petType, String petName, int petAge, int dogSpaces, int catSpaces, int daysStay, double amountDue)
     {
         this.petType = petType;
         this.petName = petName;
         this.petAge = petAge;
-        this.dogSpace = dogSpace;
-        this.catSpace = catSpace;
+        this.dogSpaces = dogSpaces;
+        this.catSpaces = catSpaces;
         this.daysStay = daysStay;
         this.amountDue = amountDue;
     }
 
+    // Getter and Setter functions for attributes
 
     public String getPetType() {
         return petType;
@@ -44,20 +46,20 @@ public class Pet {
         this.petAge = petAge;
     }
 
-    public int getDogSpace() {
-        return dogSpace;
+    public int getDogSpaces() {
+        return dogSpaces;
     }
 
-    public void setDogSpace(int dogSpace) {
-        this.dogSpace = dogSpace;
+    public void setDogSpaces(int dogSpaces) {
+        this.dogSpaces = dogSpaces;
     }
 
-    public int getCatSpace() {
-        return catSpace;
+    public int getCatSpaces() {
+        return catSpaces;
     }
 
-    public void setCatSpace(int catSpace) {
-        this.catSpace = catSpace;
+    public void setCatSpaces(int catSpaces) {
+        this.catSpaces = catSpaces;
     }
 
     public int getDaysStay() {
